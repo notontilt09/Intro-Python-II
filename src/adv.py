@@ -122,5 +122,7 @@ while True:
                 player.location.receive_item(found)
             else:
                 print(Fore.RED + "\nItem '{}' is not in your inventory".format(second_input))
+    else:
+        print(Fore.RED + "\n Invalid Input.  Please read the prompt")
 
 
