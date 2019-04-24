@@ -3,12 +3,9 @@
 from colorama import Fore
 
 class Player:
-  def __init__(self, location, items=None):
+  def __init__(self, location, items=[]):
     self.location = location
-    if items == None:
-      self.items = []
-    else:
-      self.items = items
+    self.items = items
   
   def show_inventory(self):
     print(Fore.MAGENTA + 'INVENTORY')

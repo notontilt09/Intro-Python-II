@@ -4,9 +4,6 @@ from item import Item
 
 from colorama import Fore, Style, Back
 
-
-
-
 # Declare all the items and rooms
 
 sword = Item('sword', 'Pointy Stabby Guy')
